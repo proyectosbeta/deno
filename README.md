@@ -2,6 +2,8 @@
 
 Ejemplos sobre Deno:
 
-Ejemplo 1: 
-- Carpeta: Ejemplo1
-- Ejecutar: deno run --allow-net server.ts
+Ejemplo1: 
+Es un ejemplo simple sobre deno que muestra un saludo en un sitio web. 
+
+ApiRest:
+Es un ejemplo de un API Rest que muestra books.
