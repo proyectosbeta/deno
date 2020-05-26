@@ -1,7 +1,7 @@
 
 # Running the app
 ```
-deno run --allow-env --allow-net app.ts
+deno run -c tsconfig.json --allow-env --allow-read --allow-net app.ts
 ```
 
 # Requests
