@@ -1,9 +1,4 @@
-interface Book {
-    id: string;
-    title: string;
-    description: string;
-    author: string;
-}
+import { Book } from './../Interfaces/Book.ts';
 
 /**
  * Sample array with books
@@ -151,7 +146,7 @@ const updateBook = async ({
 };
 
 /**
- * Dletes a book by a given id
+ * Delete a book by a given id
  */
 const deleteBook = ({
     params,
@@ -167,7 +162,5 @@ const deleteBook = ({
         message: "Book removed"
     };
 };
-
-
 
 export { getBooks, getBook, createBook, updateBook, deleteBook };
