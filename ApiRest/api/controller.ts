@@ -1,70 +1,11 @@
 import { Book } from './../interfaces/Book.ts';
 
+const data = JSON.parse(Deno.readTextFileSync('./data/books.json'));
+
 /**
  * Sample array with books
  */
-let books: Array<Book> = [
-    {
-      id: "1",
-      title: "The Codeless Code",
-      description: "",
-      author: ""
-    },
-    {
-      id: "2",
-      title: "97 cosas que todo programador debería saber",
-      description: "",
-      author: ""
-    },
-    {
-      id: "3",
-      title: "El camino a un mejor programador",
-      description: "",
-      author: ""
-    },
-    {
-      id: "4",
-      title: "Aprenda a programar como si estuvieras en primero",
-      description: "",
-      author: ""
-    },
-    {
-      id: "5",
-      title: "Scrum & eXtreme Programming para programadores",
-      description: "",
-      author: ""
-    },
-    {
-        id: "6",
-        title: "Código limpio: manual de estilo para el desarrollo ágil de software",
-        description: "",
-        author: "Robert C. Martin"
-    },
-    {
-        id: "7",
-        title: "No me hagas pensar: una aproximación a la usabilidad en la web",
-        description: "",
-        author: "Steve Krug"
-    },
-    {
-        id: "8",
-        title: "El Libro Negro del Programador: cómo conseguir una carrera de éxito desarrollando software y cómo evitar los errores habituales",
-        description: "",
-        author: "Rafael Gómez Blanes"
-    },
-    {
-        id: "9",
-        title: "Code Complete",
-        description: "",
-        author: "Steve McConnell"
-    },
-    {
-        id: "10",
-        title: "Coders at Work",
-        description: "",
-        author: "Peter Seibel"
-    },
-];
+let books: Array<Book> = data;
 
 /** 
  * Returns all the books
