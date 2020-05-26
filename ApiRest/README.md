@@ -7,10 +7,10 @@ deno run --allow-env --allow-net app.ts
 # Requests
 ```
   Method GET: /books --> Returns all books
-  Method GET: /book/:id --> Returns a book by id
-  Method POST: /books --> Adds a new book
-  Method PUT: /books/:id --> Updates an existing book
-  Method DELETE: /books/:id --> Deletes requested book
+  Method GET: /book/:id --> Return a book by id
+  Method POST: /books --> Add a new book
+  Method PUT: /books/:id --> Update an existing book
+  Method DELETE: /books/:id --> Delete requested book
 ```
 
 # Try in API client:
