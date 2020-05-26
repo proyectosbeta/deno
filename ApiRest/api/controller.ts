@@ -1,4 +1,4 @@
-import { Book } from './../Interfaces/Book.ts';
+import { Book } from './../interfaces/Book.ts';
 
 /**
  * Sample array with books
