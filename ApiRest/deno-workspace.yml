@@ -1,0 +1,17 @@
+scripts:
+  start:
+    file: app.ts
+    deno_options:
+      allow-net: true
+      allow-env: true
+      allow-read: data/books.json
+      config: tsconfig.json
+  develop:
+    file: app.ts
+    deno_options:
+      allow-net:
+        - 127.0.0.1
+        - localhost
+      allow-env: true
+      allow-read: ./data
+      config: tsconfig.json
