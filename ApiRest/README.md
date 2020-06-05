@@ -18,7 +18,7 @@ Then you can run `denox run start` just as `npm run [script]`, neat, huh?
 
 ```text
   Method GET: /books --> Returns all books
-  Method GET: /book/:id --> Return a book by id
+  Method GET: /books/:id --> Return a book by id
   Method POST: /books --> Add a new book
   Method PUT: /books/:id --> Update an existing book
   Method DELETE: /books/:id --> Delete requested book
@@ -30,7 +30,7 @@ Method GET:
 
 ```bash
   http://127.0.0.1:3000/books/
-  http://127.0.0.1:3000/book/1
+  http://127.0.0.1:3000/books/1
 ```
 
 ```
