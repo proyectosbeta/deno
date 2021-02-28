@@ -1,5 +1,5 @@
 /** ES Modules */
-import { serve } from "https://deno.land/std@0.52.0/http/server.ts";
+import { serve } from "https://deno.land/std@0.88.0/http/server.ts";
 
 const PORT = 3000;
 
